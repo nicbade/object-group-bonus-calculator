@@ -5,8 +5,13 @@ var scout = { name: "Scout", employeeNumber: "6243", annualSalary: "74750", revi
 var robert = { name: "Robert", employeeNumber: "26835", annualSalary: "66000", reviewRating: 1 };
 var mayella = { name: "Mayella", employeeNumber: "89068", annualSalary: "35000", reviewRating: 2 };
 
-var employees = [ atticus, jem, boo, scout, robert, mayella ];
+var employees = [atticus, jem, boo, scout, robert, mayella];
 
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
-
 console.log(employees);
+
+function compensationCalculator(employee) {
+    var employeeCompensation = {};
+
+}
+console.log(compensationCalculator());
